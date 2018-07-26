@@ -3,7 +3,7 @@
   <head>
     <style type="test/css">
     p{
-    font-color: red
+    font-color: yellow
     }
     </style>
   </head>
