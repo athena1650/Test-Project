@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style type="test/css">
+    p{
+    font-color: red
+    }
+    </style>
+  </head>
+  <body>
+    <p> This is a very different test case!!!</p>
+  </body>
+</html>
