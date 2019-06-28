@@ -1,8 +1,10 @@
-！DOCTYPE
-<html>
-  <body>
-    <h1 style="color:red>This is the header</h1>
-    <br>
-    <button href="www.baidu.com">BAIDU.COM</button>
-  </body>
-</html>
+pipeline {
+    agent { docker 'node:6.3' }
+    stages {
+        stage('build') {
+            steps {
+                sh 'npm --version'
+            }
+        }
+    }
+}
