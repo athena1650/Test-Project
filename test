@@ -9,10 +9,15 @@
     font-family: Segoe UI
     font-color: red
     }
+    .green
+    {
+      font-color: green
+    }
     </style>
   </head>
   <body>
-    <p> This is a very different test case!!! I want to add some changes</p>
+    <p> This is a very different test case!!! I want to add some changes. For GitTest2.</p>
     <h1> I just test</h1>
+    <h2 class=green>This is the test line for Git2. </h2>
   </body>
 </html>
